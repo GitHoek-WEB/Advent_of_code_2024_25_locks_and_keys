@@ -10,6 +10,7 @@ public:
 	Item(std::vector<std::string> PROFILE);
 	void set_profile(std::vector<std::string> PROFILE);
 	void print_content(void);
+	void print_height_map(void);
 	std::vector<std::string> get_profile(void);
 	std::vector<int> get_height_map(void);
 private:

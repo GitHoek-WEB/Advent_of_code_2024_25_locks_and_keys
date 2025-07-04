@@ -16,7 +16,7 @@ keys_and_locks DataParser::get_keys_and_locks(std::string filepath)
             profile.push_back(line);
         }
 
-        else if (line.size() == 0)
+        else if (profile.size() == 7)
         {
             if (profile[0] == "#####")
             {
